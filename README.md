@@ -63,6 +63,23 @@ Enterprise Legal AI (Harvey AI, CoCounsel) ist teuer und oft US-gehostet. Dieses
 - 💼 [LinkedIn](https://linkedin.com/in/hartmutplass)
 - 🐙 [GitHub](https://github.com/hartmut-ux)
 
+## Häufig gestellte Fragen
+
+### Was ist ein AI Skill?
+Ein AI Skill ist ein wiederverwendbarer Anweisungssatz, der dem KI-Assistenten beibringt, eine bestimmte juristische Aufgabe mit konsistenter Qualität zu erledigen.
+
+### Funktionieren die Skills mit Kimi, Claude und Codex?
+Ja. Jeder Skill enthält Wrapper für Kimi Code CLI, Claude Code und Codex CLI.
+
+### Werden meine Daten an Dritte weitergegeben?
+Nein. Die Skills laufen lokal im jeweiligen KI-Assistenten. Deine Daten bleiben bei dir.
+
+### Muss ich zahlen?
+Nein. Alle Skills sind unter der MIT-Lizenz veröffentlicht.
+
+### Kann ich denselben Skill auf mehreren Assistenten nutzen?
+Ja. Die Datei `-all.zip` enthält Wrapper für Kimi, Claude und Codex.
+
 ## Verwandte Projekte
 
 - **AI Marketing Team** — 11 AI-Marketing-Skills für KMU und purpose-driven Organisationen: https://github.com/hartmut-ux/ai-marketing-team
