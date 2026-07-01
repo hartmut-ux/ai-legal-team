@@ -4,6 +4,7 @@ url: "https://hartmut-ux.github.io/ai-legal-team"
 baseurl: ""
 theme: minima
 header_pages: [index.md]
+lang: de
 author:
   name: "Hartmut Hübner"
   email: "hello@mmind.ai"
