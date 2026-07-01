@@ -5,11 +5,3 @@ baseurl: ""
 theme: minima
 header_pages: [index.md]
 lang: de
-author:
-  name: "Hartmut Hübner"
-  email: "hello@mmind.ai"
-social:
-  name: Hartmut Hübner
-  links:
-    - https://linkedin.com/in/hartmutplass
-    - https://github.com/hartmut-ux
