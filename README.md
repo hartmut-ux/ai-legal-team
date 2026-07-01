@@ -1,12 +1,12 @@
 # Hartmut's AI Legal Team
 
-**9 spezialisierte KI-Agenten für mittelgrosse Kanzleien.**
-
-Open Source. Sovereign. Customizable.
+**9 spezialisierte KI-Agenten für mittelgrosse Kanzleien.**  
+🌐 **Live-Seite:** [hartmut-ux.github.io/ai-legal-team](https://hartmut-ux.github.io/ai-legal-team/)  
+Open Source. Sovereign. Kimi · Claude · Codex.
 
 ## Was ist das?
 
-Ein vollständiges Agentic Team aus 9 Claude Skills, das die wichtigsten Workflows einer mittelgrossen Kanzlei (10–80 Anwälte) abdeckt — von Vertragsanalyse über Compliance bis Business Development.
+Ein vollständiges Agentic Team aus 9 Skills, das die wichtigsten Workflows einer mittelgrossen Kanzlei (10–80 Anwälte) abdeckt — von Vertragsanalyse über Compliance bis Business Development.
 
 Kein SaaS-Abo. Kein Vendor Lock-in. Deine Daten bleiben bei dir.
 
@@ -14,15 +14,31 @@ Kein SaaS-Abo. Kein Vendor Lock-in. Deine Daten bleiben bei dir.
 
 | # | Skill | Funktion |
 |---|-------|----------|
-| 1 | **Contract Analyst** | Vertragsanalyse, Red Flags, Klauselvergleich (OR/ZGB + English Law) |
-| 2 | **Legal Researcher** | Rechtsprechungssuche, BGer/UKSC, Gesetzesänderungen |
-| 3 | **Compliance Monitor** | DSG, GwG, FINMA, SRA, GDPR, EU AI Act — inkl. Risk Heatmap |
-| 4 | **Client Communicator** | Mandantenbriefe, Status-Updates, Honorarkommunikation |
-| 5 | **Due Diligence Assistant** | M&A, Immobilien, Restructuring — Checklisten + Findings |
-| 6 | **Litigation Support** | Schriftsätze, Chronologien, Beweismittelstruktur |
-| 7 | **Knowledge Manager** | Wissensdatenbank, Vorlagen, Precedent-Suche, Onboarding |
-| 8 | **Legal BD & Marketing** | Kanzlei-Newsletter, LinkedIn, Events (BGFA/SRA-konform) |
-| 9 | **Practice Operations** | Zeiterfassung, WIP, Profitabilität, interne Kommunikation |
+| 1 | **contract-analyst** | Vertragsanalyse, Red Flags, Klauselvergleich (OR/ZGB + English Law) |
+| 2 | **legal-researcher** | Rechtsprechungssuche, BGer/UKSC, Gesetzesänderungen |
+| 3 | **compliance-monitor** | DSG, GwG, FINMA, SRA, GDPR, EU AI Act — inkl. Risk Heatmap |
+| 4 | **client-communicator** | Mandantenbriefe, Status-Updates, Honorarkommunikation |
+| 5 | **due-diligence-assistant** | M&A, Immobilien, Restructuring — Checklisten + Findings |
+| 6 | **litigation-support** | Schriftsätze, Chronologien, Beweismittelstruktur |
+| 7 | **knowledge-manager** | Wissensdatenbank, Vorlagen, Precedent-Suche, Onboarding |
+| 8 | **legal-bd-marketing** | Kanzlei-Newsletter, LinkedIn, Events (BGFA/SRA-konform) |
+| 9 | **practice-operations** | Zeiterfassung, WIP, Profitabilität, interne Kommunikation |
+
+## Installation
+
+Jeder Skill steht als ZIP für **Kimi**, **Claude**, **Codex** oder **alle** Plattformen bereit.
+
+```bash
+# Repository klonen
+git clone https://github.com/hartmut-ux/ai-legal-team.git
+
+# Oder lade die neuesten Releases herunter:
+# https://github.com/hartmut-ux/ai-legal-team/releases/latest
+
+# Beispiel Claude
+mkdir -p ~/.claude/skills
+unzip contract-analyst-claude.zip -d ~/.claude/skills/contract-analyst
+```
 
 ## Warum Open Source?
 
@@ -30,25 +46,14 @@ Enterprise Legal AI (Harvey AI, CoCounsel) ist teuer und oft US-gehostet. Dieses
 
 ## Technologie
 
-- **Claude Skills** — Spezialisierte KI-Agenten auf Anthropic Claude (Sonnet 4.6)
+- **Multi-Platform AI Skills** — Kimi, Claude & Codex
 - **MCP** (Model Context Protocol) — Offener Standard der Linux Foundation
-- **.skill Format** — ZIP-Archive für Claude Desktop
+- **ZIP-Archive** — Für jeden Assistenten sofort einsatzbereit
 
 ## Live Demos
 
 - **Liechtenstein Legal Navigator**: [udify.app/chat/ZOvDsVvUxG8fqpRH](https://udify.app/chat/ZOvDsVvUxG8fqpRH) — Gebaut mit Dify + Claude
 - **Compliance Cockpit Survey**: [umfrage.compliance.mmind.ai](https://umfrage.compliance.mmind.ai/) — KI-gestützte Compliance Heatmap
-
-## Installation
-
-```bash
-# Repository klonen
-git clone https://github.com/hartmut-ux/ai-legal-team.git
-
-# Einzelnen Skill in Claude Desktop laden
-# Drag & Drop der .skill-Datei oder manuell:
-cp skills/contract-analyst/ ~/.claude/skills/
-```
 
 ## Über den Autor
 

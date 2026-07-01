@@ -1,0 +1,14 @@
+title: "Hartmut's AI Legal Team"
+description: "9 spezialisierte KI-Agenten für mittelgrosse Kanzleien. Multi-Platform Skills für Kimi, Claude & Codex."
+url: "https://hartmut-ux.github.io/ai-legal-team"
+baseurl: ""
+theme: minima
+header_pages: [index.md]
+author:
+  name: "Hartmut Hübner"
+  email: "hello@mmind.ai"
+social:
+  name: Hartmut Hübner
+  links:
+    - https://linkedin.com/in/hartmutplass
+    - https://github.com/hartmut-ux
