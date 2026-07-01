@@ -63,6 +63,12 @@ Enterprise Legal AI (Harvey AI, CoCounsel) ist teuer und oft US-gehostet. Dieses
 - 💼 [LinkedIn](https://linkedin.com/in/hartmutplass)
 - 🐙 [GitHub](https://github.com/hartmut-ux)
 
+## Verwandte Projekte
+
+- **AI Marketing Team** — 11 AI-Marketing-Skills für KMU und purpose-driven Organisationen: https://github.com/hartmut-ux/ai-marketing-team
+- **B Corp Navigator** — 10 AI-Skills für B-Corp-Zertifizierung und Impact Reporting: https://github.com/hartmut-ux/ai-bcorp-team-en
+- **AI Legal Team (English)** — 9 AI legal skills for mid-market law firms: https://github.com/hartmut-ux/ai-legal-team-en
+
 ## Lizenz
 
 MIT — Nutze, modifiziere und teile frei.
